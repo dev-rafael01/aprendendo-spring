@@ -1,0 +1,12 @@
+package io.github_rafael01.aprendendo_spring.infraEstrutura.exceptions;
+
+public class ResourceNotFoudException  extends RuntimeException{
+
+    public ResourceNotFoudException(String mensagem){
+        super(mensagem);
+    }
+
+    public ResourceNotFoudException(String email, Throwable throwable){
+        super(email, throwable);
+    }
+}
